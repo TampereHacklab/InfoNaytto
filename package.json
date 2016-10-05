@@ -1,0 +1,17 @@
+{
+  "name": "Infonaytto",
+  "version": "1.0.0",
+  "description": "Infonaytto Tampere Hacklabin tiloihin.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joonas Helminen",
+  "license": "ISC"
+}

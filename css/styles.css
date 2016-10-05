@@ -1,0 +1,73 @@
+html{
+	background-color: grey;
+}
+
+#calendar{
+	width:752px;
+	position: absolute;
+	top: 500px;
+	left: 0px;
+}
+
+#date {
+	position: absolute;
+	top: 490px;
+	right: 60px;
+	font-size: 30px;
+}
+
+#saa{
+	margin-top: -10px;
+	margin-left: -10px;
+	position: absolute;
+	width:754px;
+}
+
+.fc td.fc-today{
+	background: #b36f6f;
+}
+
+.fc-title{
+	font-weight: bold;
+}
+
+#bussit{
+	position: absolute;
+	left: 5px;
+	top:205px;
+	font-size: 1.8em;
+	width:425px;
+}
+
+.pysakin_nimet{
+	font-weight:bold;
+	margin-top:5px;
+}
+
+.bussinro{
+	font-weight:bold;
+}
+
+.bussilista td{
+	padding: 2px;
+	border: 1px solid;
+}
+
+#lahtevat{
+	float:left;
+	margin-right: 10px;
+}
+#tulevat{
+	float:right;
+	margin-right: 10px;
+}
+
+#notepad{
+	position: absolute;
+	top:1120px;
+	border-style: ridge;
+	width: 746px;
+	max-height: 200px;
+	overflow: scroll;
+	background-color: lightgrey;
+}

@@ -1,0 +1,10 @@
+Add these scripts to crontab to be run e.g. every 30 seconds.
+
+
+Säätila:
+																			tagit omille riveilleen, tulostetaan vain avainsanojen välinen osuus, poistetaan viimeinen rivi, lisätään taulukon lopputagit
+curl -s "http://ilmatieteenlaitos.fi/saa/Tampere?map=weathernow&station=2763" | sed 's/>/>\n/g' | sed -n '/short local-weather-forecast/,/meteogram-precipitation-title/p' | sed '$d' | sed '$s/$/<\/tbody><\/table><\/div>/' > /home/pi/infonaytto/public/saatila.html
+
+Kirjoitusalusta:
+
+TBD
