@@ -1,0 +1,14 @@
+https://learn.adafruit.com/node-embedded-development?view=all#installing-node-dot-js
+
+curl -sLS https://apt.adafruit.com/add | sudo bash
+sudo apt-get install node
+node -v
+
+jos kortin tila on kortilla: http://elinux.org/RPi_Resize_Flash_Partitions#Manually_resizing_the_SD_card_on_Raspberry_Pi
+
+npm init
+npm install request express http socket.io onoff --save
+
+mkdir public
+
+https://kirjoitusalusta.fi/vSvNF3uOpW<
